@@ -1,8 +1,10 @@
 package com.abdihakim.loginapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
@@ -14,6 +16,7 @@ public class RadiosAndCheckBoxes extends AppCompatActivity {
     RadioButton rd_female,rd_male;
 
     CheckBox ch_email,ch_sms,ch_push;
+    Button next_ui;
 
     @Override
     protected void onCreate(Bundle bundle){
@@ -28,6 +31,15 @@ public class RadiosAndCheckBoxes extends AppCompatActivity {
         ch_email=findViewById(R.id.ch_get_emails);
         ch_sms=findViewById(R.id.ch_sms);
         ch_push=findViewById(R.id.ch_enable_push);
+
+        next_ui=findViewById(R.id.btn_next);
+
+        next_ui.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(RadiosAndCheckBoxes.this,Spinners.class));
+            }
+        });
 
         radios();
 
@@ -64,5 +76,10 @@ public class RadiosAndCheckBoxes extends AppCompatActivity {
                             Toast.LENGTH_SHORT).show();
             }
         });
+    }
+
+
+    public void btn(){
+
     }
 }

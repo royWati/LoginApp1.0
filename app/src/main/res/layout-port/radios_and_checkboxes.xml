@@ -86,6 +86,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="5pt"
         android:text="NEXT UI"
+        android:id="@+id/btn_next"
         android:textColor="#fff"
         android:textSize="20dp"/>
 </RelativeLayout>
