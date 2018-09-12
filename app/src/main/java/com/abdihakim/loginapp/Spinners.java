@@ -16,7 +16,6 @@ public class Spinners extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.spinner);
         spinnerObj=findViewById(R.id.spinner);
-
         adapter = new ArrayAdapter(Spinners.this,android.R.layout.simple_list_item_1,names);
         adapter.setDropDownViewResource(android.R.layout.simple_list_item_1);
         spinnerObj.setAdapter(adapter);
