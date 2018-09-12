@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LoginApp</string>
+    <string name="radio_and_checkboxes_title">Radios and Checkboxes</string>
+    <string name="radio_notes">for a radio group, use onCheckedChangedListener to
+            set actions for your radio buttons </string>
+    <string name="check_box_notes">For a check box, use onClickListener, which is
+    implemented on a checkbox. both isChecked(true) and !isChecked(false) can both be added</string>
+</resources>

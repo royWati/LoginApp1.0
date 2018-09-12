@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@drawable/linear_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ln_radios"
+        android:orientation="vertical"
+        android:layout_margin="10pt">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/group_gender"
+            android:layout_margin="10pt">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio_male"
+                android:text="Male"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio_female"
+                android:text="female"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_margin="10pt"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="7pt"
+            android:text="@string/radio_notes"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/linear_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ln_checkboxes"
+        android:orientation="vertical"
+        android:layout_margin="10pt"
+        android:padding="10pt"
+        android:layout_below="@+id/ln_radios">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ch_get_emails"
+            android:text="Get Email Notifications"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ch_sms"
+            android:text="Get SMS Notifications"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ch_enable_push"
+            android:text="Get Push Notifications"
+            />
+
+        <TextView
+            android:padding="2dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="5pt"
+            android:text="@string/check_box_notes"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_marginLeft="10pt"
+        android:layout_marginRight="10pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_register"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5pt"
+        android:text="NEXT UI"
+        android:textColor="#fff"
+        android:textSize="20dp"/>
+</RelativeLayout>
