@@ -37,7 +37,8 @@ public class RadiosAndCheckBoxes extends AppCompatActivity {
         next_ui.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(RadiosAndCheckBoxes.this,Spinners.class));
+                Intent intent= new Intent(RadiosAndCheckBoxes.this,Spinners.class);
+                startActivity(intent);
             }
         });
 
