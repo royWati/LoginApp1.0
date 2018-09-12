@@ -33,6 +33,7 @@ public class registration extends AppCompatActivity {
 
          if(pass.equals(conf)){
 
+
              Toast.makeText(getApplicationContext(),"Password match",Toast.LENGTH_SHORT).show();
 
              Intent intentObj=
