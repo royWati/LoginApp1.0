@@ -5,4 +5,6 @@
             set actions for your radio buttons </string>
     <string name="check_box_notes">For a check box, use onClickListener, which is
     implemented on a checkbox. both isChecked(true) and !isChecked(false) can both be added</string>
+    <string name="spinner_notes">For the spinner, use onItemSelectedListener to select items
+    found inside the spinner as the action listener. DO NOT USE onItemClickLister!!</string>
 </resources>

@@ -2,9 +2,13 @@ package com.abdihakim.loginapp;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 public class Spinners extends AppCompatActivity{
 
@@ -20,6 +24,17 @@ public class Spinners extends AppCompatActivity{
         adapter.setDropDownViewResource(android.R.layout.simple_list_item_1);
         spinnerObj.setAdapter(adapter);
 
+        spinnerObj.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                Snackbar.make(view,
+                        "You selected "+names[position],Snackbar.LENGTH_SHORT).show();
+            }
 
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
     }
 }
