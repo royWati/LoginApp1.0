@@ -12,6 +12,15 @@
         android:padding="5pt">
 
         <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lorem_ipsum"
+        android:textSize="7pt"
+        android:lineSpacingExtra="1pt"
+        android:outlineProvider="paddedBounds"
+        />
+
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/lorem_ipsum"
