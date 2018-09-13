@@ -7,4 +7,11 @@
     implemented on a checkbox. both isChecked(true) and !isChecked(false) can both be added</string>
     <string name="spinner_notes">For the spinner, use onItemSelectedListener to select items
     found inside the spinner as the action listener. DO NOT USE onItemClickLister!!</string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, summo clita ridens ad vix, qui ea nominavi accusata suavitate. Mentitum copiosae tacimates vis ex, sea habeo adhuc graeci ei. Vim ad porro detracto consectetuer, duo ad maiorum tincidunt definiebas, an argumentum reformidans per. Ea his alia alterum adipisci, wisi affert iudicabit eum cu.
+        Dolor nusquam dissentiet vis ad, rebum adipiscing mel ut. In quo nemore percipitur, cum ut nisl iuvaret.
+Cetero integre eos ne. At mel erant molestie. Eos cu lorem dissentias. Vis ut adipisci pertinacia. Sit illud dolore expetenda in, mel munere placerat ea.
+Id his vidisse fuisset delicata, sed audiam accusam suavitate te. Eos erat salutandi disputationi at, id nobis homero laboramus est. Ut ius possim splendide posidonium, pro ut graecis periculis. Per omnes utinam et. Ne tractatos neglegentur qui, his no saepe intellegat incorrupte. Ei vel sale discere recusabo.
+Quaeque alienum voluptatibus no pri, qui affert percipit et, ad noluisse instructior cum. Blandit reprehendunt cu vis. Te autem incorrupte qui, utroque civibus pri ei, te per alterum deterruisset. Legere quodsi albucius ad vix.
+Eos at denique erroribus consectetuer, ei omnis dicunt lobortis sit. Eu civibus mediocritatem his, his id affert invenire signiferumque, cum etiam tritani volutpat ut. Sit ad recteque liberavisse philosophia. Est ferri eruditi eu, id est case harum scriptorem. Has ea summo iuvaret epicurei, duo ei corpora suavitate.</string>
 </resources>
