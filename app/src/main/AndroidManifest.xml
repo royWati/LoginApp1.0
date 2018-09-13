@@ -18,6 +18,8 @@
         </activity>
         <activity android:name=".RadiosAndCheckBoxes" />
         <activity android:name=".Spinners" />
+        <activity android:name=".ScrollView"/>
+        <activity android:name=".Container"/>
     </application>
 
 </manifest>
