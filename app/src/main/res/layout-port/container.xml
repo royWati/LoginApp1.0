@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginRight="10pt"
+    android:layout_marginLeft="10pt"
+    android:layout_height="match_parent">
+
+ <Button
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="10pt"
+     android:background="@drawable/btn_register"
+     android:text="ScrollView"
+     android:textColor="#fff"
+     android:id="@+id/btn_scrollview"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:background="@drawable/btn_register"
+        android:text="NestedScrollView"
+        android:textColor="#fff"
+        android:id="@+id/btn_nestedscrollview"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:background="@drawable/btn_register"
+        android:text="AppBarLayout"
+        android:textColor="#fff"
+        android:id="@+id/btn_appbar"/>
+
+</LinearLayout>
