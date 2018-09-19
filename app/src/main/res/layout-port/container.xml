@@ -32,5 +32,29 @@
         android:text="AppBarLayout"
         android:textColor="#fff"
         android:id="@+id/btn_appbar"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:background="@drawable/btn_register"
+        android:text="Grid View"
+        android:textColor="#fff"
+        android:id="@+id/btn_gridview"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:background="@drawable/btn_register"
+        android:text="List View"
+        android:textColor="#fff"
+        android:id="@+id/btn_listview"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:background="@drawable/btn_register"
+        android:text="RecyclerView"
+        android:textColor="#fff"
+        android:id="@+id/btn_recyclerview"/>
 
 </LinearLayout>

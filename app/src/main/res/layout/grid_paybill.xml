@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay Your Bills"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:id="@+id/txt_header_one"
+        />
+
+    <GridView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/txt_header_one"
+        android:numColumns="3"
+        android:id="@+id/grid_utilities"
+        android:layout_marginRight="5pt"
+        android:layout_marginLeft="5pt"
+       />
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Purchase Ticket"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:layout_below="@id/grid_utilities"
+        android:id="@+id/txt_header_two"
+        />
+
+    <GridView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/txt_header_two"
+        android:numColumns="3"
+        android:id="@+id/grid_tickets"
+        android:layout_marginRight="5pt"
+        android:layout_marginLeft="5pt"
+        />
+</RelativeLayout>

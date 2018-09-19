@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardElevation="3pt"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="2pt"
+        app:cardBackgroundColor="#eceae5"
+        >
+
+        <LinearLayout
+            android:layout_marginTop="7pt"
+            android:layout_marginBottom="7pt"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:paddingTop="3pt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@mipmap/img_buy_goods"
+                android:id="@+id/img_utlity_item"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="UTILITY"
+                android:layout_marginTop="5pt"
+                android:textColor="#1f206c"
+                android:id="@+id/txt_utility_item"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

@@ -10,16 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".registration">
+
+        </activity>
+        <activity android:name=".RadiosAndCheckBoxes" />
+        <activity android:name=".Spinners" />
+        <activity android:name=".ScrollView" />
+        <activity android:name=".Container"
+            android:theme="@style/Theme.AppCompat.Light">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RadiosAndCheckBoxes" />
-        <activity android:name=".Spinners" />
-        <activity android:name=".ScrollView"/>
-        <activity android:name=".Container"/>
+        <activity android:name=".GridView"
+            android:theme="@style/Theme.AppCompat.Light"/>
     </application>
 
 </manifest>
