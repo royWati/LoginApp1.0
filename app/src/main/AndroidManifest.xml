@@ -25,6 +25,8 @@
         </activity>
         <activity android:name=".GridView"
             android:theme="@style/Theme.AppCompat.Light"/>
+        <activity android:name=".loginActivity"
+            android:theme="@style/Theme.AppCompat.Light"/>
     </application>
 
 </manifest>

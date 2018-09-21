@@ -35,5 +35,14 @@ public class Container extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        btn_app_bar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent (Container.this,loginActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
